@@ -1,13 +1,15 @@
 <template>
-  <HelloWorld />
+<v-layout>
+    <v-flex>
+        <h2>Hello Tess</h2>
+    </v-flex>
+
+</v-layout>
+   
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
-
-  export default {
-    components: {
-      HelloWorld
-    }
-  }
+export default {
+    
+}
 </script>
