@@ -13,19 +13,38 @@
   </v-toolbar>
 
     <v-content>
-        <router-view/>
+        <router-view/>    
     </v-content>
-  </v-app>    
+
+    <v-footer
+    dark
+    height="auto"
+  >
+    <v-card
+      class="flex"
+      flat
+      tile
+    >
+        <v-spacer></v-spacer>
+
+      <v-card-actions class="grey darken-3 justify-center">
+        &copy;2019 — <strong>Made with love</strong>
+      </v-card-actions>
+    </v-card>
+  </v-footer>  
+  </v-app>
+   
 </template>
+
+
 
 <script>
 
 export default {
   name: 'App',
-  data () {
-    return {
-      //
-    }
+  components: {
+    
   }
+  
 }
 </script>
