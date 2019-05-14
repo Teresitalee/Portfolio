@@ -1,7 +1,7 @@
 <template>
   <v-app>
-     <v-toolbar app class="lime">
-      <v-toolbar-title class="font-weight-thin">Teresita Madriaza</v-toolbar-title>
+     <v-toolbar app class="pink">
+      <v-toolbar-title class="font-weight-thin white--text" >Teresita Madriaza</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down" >
         <v-btn flat>Home</v-btn>
