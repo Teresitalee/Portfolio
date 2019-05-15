@@ -1,5 +1,7 @@
 <template>
-  <form mt-4>
+  <v-container>
+    <v-flex xs8 offset-xs2>
+        <form mt-4  >
     <v-text-field
       v-model="name"
       :error-messages="nameErrors"
@@ -38,6 +40,10 @@
     <v-btn @click="submit">submit</v-btn>
     <v-btn @click="clear">clear</v-btn>
   </form>
+
+      
+    </v-flex>
+  </v-container>
 </template>
 
 <script>

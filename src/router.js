@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Biography from './components/Biography.vue'
+
 
 
 Vue.use(Router)
@@ -18,7 +18,8 @@ export default new Router({
     {
       path: '/about',
       name: 'about',
-      component: () => import(/* webpackChunkName: "about" */ './components/Biography.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      
     },
     {
       path: '/skills',

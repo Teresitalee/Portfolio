@@ -1,9 +1,9 @@
 <template>
-<v-container>
+<v-container mt-5>
     <v-flex>
         <v-layout align-center justify-center row fill-height>
             <div class="mb-4">
-                <h2>Get in touch</h2>
+                <h1>Get in touch</h1>
             </div>
         </v-layout>
     </v-flex>

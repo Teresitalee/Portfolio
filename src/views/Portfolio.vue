@@ -1,8 +1,17 @@
 <template>
-    <div>
-        <h1>My collector works made it</h1>
-        <Gallery />  
-    </div>
+<v-container>
+    <v-flex offset-xs4>
+        <v-layout>
+            <div>
+             <h1>My collector works made it</h1>
+            </div>
+
+        </v-layout>
+    </v-flex>
+    <Gallery />  
+</v-container>
+
+   
 </template>
 
 <script>

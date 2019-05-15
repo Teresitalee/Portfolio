@@ -1,14 +1,14 @@
 <template>
-  <v-parallax
-      dark
-      src="./assets/et.jpg"
-  >
-  </v-parallax>
+<Parallax />  
+  
 </template>
 
 <script>
+import Parallax  from "@/components/Parallax.vue";
 
-export default {
-    
-}
+    export default {
+        components:{
+            Parallax
+        }
+    }
 </script>

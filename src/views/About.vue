@@ -1,15 +1,16 @@
 <template>
+<Biography />  
   
 </template>
 
 <script>
-import Biography from "@/components/Biography.vue";
+  import Biography  from "@/components/Biography.vue";
 
-export default {
-  name: "about" ,
-  components: {
-    Biography
-  }
-  
-}
+    export default {
+        components:{
+            Biography
+        }
+    }
+
+    
 </script>
