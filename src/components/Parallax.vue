@@ -1,23 +1,26 @@
 <template>
-<v-parallax
-    height="550"
+<v-parallax xs4 md8
+    height="527"
     dark
-    src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+    src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    
   >
     <v-layout
-      align-center
       column
-      justify-center
+      fill-height 
+      align-end
+      text-xs-right
+      pa-5
+      mt-5
+      justify-end
     >
-      <h1 class="display-2 font-weight-thin mb-3">Vuetify.js</h1>
-      <h4 class="subheading">Build your application today!</h4>
+      <div class="display-1 font-weight-light mb-2 white--text">Teresita Madriaza</div>
+      <div class="display-3  yellow--text text-uppercase">Front-end Developer</div>
     </v-layout>
   </v-parallax>
    
 </template>
 
 <script>
-export default {
-    
-}
+
 </script>

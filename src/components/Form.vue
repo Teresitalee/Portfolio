@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-flex xs8 offset-xs2>
+    <v-flex xs2 md5>
         <form mt-4  >
     <v-text-field
       v-model="name"
@@ -37,8 +37,10 @@
       @blur="$v.checkbox.$touch()"
     ></v-checkbox>
 
-    <v-btn @click="submit">submit</v-btn>
-    <v-btn @click="clear">clear</v-btn>
+    <v-btn @click="submit" color="success">submit</v-btn>
+    <v-btn @click="clear" color="error">clear</v-btn>
+    
+      
   </form>
 
       

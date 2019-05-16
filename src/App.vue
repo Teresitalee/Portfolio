@@ -1,7 +1,7 @@
 <template>
   <v-app>
      <v-toolbar app class="black">
-      <v-toolbar-title class="font-weight-thin white--text" >Teresita Madriaza</v-toolbar-title>
+      <v-toolbar-title class="font-weight-thin white--text" >Resume Portfolio</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down" >
         <v-btn flat class="pink--text" to="/">Home</v-btn>
@@ -15,6 +15,8 @@
     <v-content>
         <router-view/>    
     </v-content>
+
+
 
     <v-footer
     dark
@@ -43,6 +45,7 @@
 export default {
   name: 'App',
   components: {
+   
     
   }
   

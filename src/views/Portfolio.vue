@@ -10,8 +10,6 @@
     </v-flex>
     <Gallery />  
 </v-container>
-
-   
 </template>
 
 <script>
