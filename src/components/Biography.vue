@@ -1,10 +1,19 @@
-<template >
-  <v-container  grid-list-md>
+<template>
+<v-img
+  src="https://images.wallpaperscraft.com/image/train_fog_rail_54247_1280x720.jpg"
+  height="527"
+  :gradient="gradient"
+  dark
+  position-x
+  position-y
+  
+  >
+  <v-container grid-list-xl>
     <v-layout mt-4 align-space-between justify-space-between row fill-height>
       <v-flex xs4>
           <div class="mb-4 flex xs8 md12 ">
-                <div class="font-weight-bold  pink--text mb-4 display-1" >Who Im .</div>
-                <div class="subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias veniam velit qui quasi, beatae amet reprehenderit non optio architecto, totam, expedita nostrum tempora. Aspernatur ut obcaecati nisi natus quaerat!</div>
+                <div class="font-weight-bold  yellow--text mb-4 display-1" >Who Im .</div>
+                <div class="subheading white--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias veniam velit qui quasi, beatae amet reprehenderit non optio architecto, totam, expedita nostrum tempora. Aspernatur ut obcaecati nisi natus quaerat!</div>
 
                 <v-responsive
                     align-center
@@ -19,6 +28,8 @@
                         alt="Teresita"
                         max-height="25"
                         width="180"
+                        :gradient="gradient"
+    dark
                     >
                     </v-img>
 
@@ -26,37 +37,36 @@
             </div>   
       </v-flex>
 
-      <v-flex xs4 mt-5   offset-sm1>
+      <v-flex xs3 mt-5 offset-sm1>
           <div class="xs6 md10 text-uppercase font-weight-medium pt-2 ml-2">
-              <div class="pink--text mb-3">Location : <span class="grey--text text-capitalize">  Viña del mar</span></div> 
-              <div class="pink--text mb-3 " >Email : <span class="grey--text text-lowercase">  teresita1852@gmail.com</span></div>
-              <div class="pink--text mb-3">Phone : <span class="grey--text text-lowercase">  +56 953908406</span></div>
+              <div class="yellow--text mb-3">Location : <span class="white--text text-capitalize">  Viña del mar</span></div> 
+              <div class="yellow--text mb-3 " >Email : <span class="white--text text-lowercase">  teresita1852@gmail.com</span></div>
+              <div class="yellow--text mb-3">Phone : <span class="white--text text-lowercase">  +56 953908406</span></div>
           </div>
       </v-flex>
 
-      <v-flex xs4 offset-sm1>
-          <div class="mb-2">
-            <div class="text-uppercase display-1 font-weight-bold">front-end developer</div>
-            <span class="pink--text text-uppercase display-2 headline font-weight-light justify-end">Teresita Madriaza</span>
+      <v-flex xs5 offset-sm1>
+          <div class="mb-2 text-xs-right">
+            <div class="text-uppercase display-1 font-weight-bold white--text">front-end developer</div>
+            <span class="yellow--text text-uppercase display-2 headline font-weight-light  text-xs-right">Teresita Madriaza</span>
             
                 <v-layout
-                    align-center
+                    align-left
                     justify-space-around
                     wrap
                     mt-4
                     >
 
-                    <v-img>
+                    <v-img circle>
                     <img
-                        src="https://cdn.vuetifyjs.com/images/john.jpg"
-                        alt="John"
+                        src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_female-512.png"
+                        alt="Teresita"
                         circle
-                        max-height="125"
+                        max-height="60"
                         width="180"
                         
                     >
                     </v-img>
-
                 </v-layout>
           </div>
       </v-flex>
@@ -65,8 +75,8 @@
     <template>
         <v-flex md6 offset-md4 mt-1>
             <v-layout>
-                <div class="pink--text">
-                    <div class="font-weight-bold  pink--text mb-4 display-1">What I can do for you ?</div>
+                <div class="yellow--text">
+                    <div class="font-weight-bold  yellow--text mb-4 display-1">What I can do for you ?</div>
                   
                     <v-expansion-panel >
                     <v-expansion-panel-content class="theme-dark">
@@ -111,6 +121,7 @@
 
 
   </v-container>
+  </v-img>
 </template>
 
 
