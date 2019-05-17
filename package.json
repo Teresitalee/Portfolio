@@ -13,6 +13,7 @@
     "roboto-fontface": "*",
     "vue": "^2.6.10",
     "vue-axios": "^2.1.4",
+    "vue-pdf": "^4.0.6",
     "vue-router": "^3.0.3",
     "vuetify": "^1.5.5",
     "vuex": "^3.0.1"
