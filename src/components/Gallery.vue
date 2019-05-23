@@ -1,57 +1,67 @@
 <template>
-  <v-container fluid>
-    <v-layout row>
-      <v-flex xs6 order-lg2>
-        <v-card dark tile flat color="error">
-          <v-card-text>#1</v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs6>
-        <v-card dark tile flat color="red darken-4">
-          <v-card-text>#2</v-card-text>
-        </v-card>
-      </v-flex>
-    </v-layout>
-    <v-layout row>
-      <v-flex xs4 order-md2 order-xs1>
-        <v-card dark tile flat color="red lighten-1">
-          <v-card-text>#1</v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs4 order-md3 order-xs2>
-        <v-card dark tile flat color="red lighten-2">
-          <v-card-text>#2</v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs4 order-md1 order-xs3>
-        <v-card dark tile flat color="red darken-1">
-          <v-card-text>#3</v-card-text>
-        </v-card>
-      </v-flex>
-    </v-layout>
-    <v-layout row wrap>
-      <v-flex xs12 sm6 md3 order-md4 order-sm2>
-        <v-card dark tile flat color="red darken-2">
-          <v-card-text>#1</v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 sm6 md3 order-md3 order-sm1>
-        <v-card dark tile flat color="deep-orange lighten-1">
-          <v-card-text>#2</v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 sm6 md3 order-md2 order-sm4>
-        <v-card dark tile flat color="deep-orange darken-3">
-          <v-card-text>#3</v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 sm6 md3 order-md1 order-sm3>
-        <v-card dark tile flat color="deep-orange">
-          <v-card-text>#4</v-card-text>
-        </v-card>
-      </v-flex>
-    </v-layout>
-  </v-container>
+ <v-container>
+   <v-layout row wrap>
+     <v-flex xs6 align-end justify-start column fill-height
+
+>
+       <v-card class="dark">
+         <v-container fluid>
+           <v-layout row>
+             <v-flex xs5 sm4 md3>
+               <v-img
+               src="https://www.valuecoders.com/blog/wp-content/uploads/2018/05/laravel.jpg"
+               height="200"
+              
+               > 
+               </v-img>
+             </v-flex>
+
+             <v-flex xs7 sm8 md9  >
+               <v-card-title grey--text >
+                 <div>
+                   <h4 class="dark--text mb-0 text-lg-right">Laravel</h4>
+                    <p class="dark--text text-lg-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                 <div class="text-lg-right">23 abril 2019</div>
+                  </div>
+               </v-card-title>
+               <v-card-actions >
+                 <v-btn fab dark small color="pink">
+                   <v-icon dark>link</v-icon>  
+                 </v-btn>
+               </v-card-actions>
+             </v-flex>
+
+
+           </v-layout>
+
+         </v-container>
+       </v-card>
+
+     </v-flex>
+
+   </v-layout>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </v-container> 
 </template>
 
 

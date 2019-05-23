@@ -1,6 +1,6 @@
 <template>
 <v-img
-  src="https://images.wallpaperscraft.com/image/train_fog_rail_54247_1280x720.jpg"
+  src="https://images.pexels.com/photos/2310642/pexels-photo-2310642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
   height="527"
   :gradient="gradient"
   dark

@@ -1,4 +1,13 @@
 <template>
+<v-img
+  src="https://images.pexels.com/photos/2310642/pexels-photo-2310642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  height="827"
+  :gradient="gradient"
+  dark
+  position-x
+  position-y
+  
+  >
     <v-container>
         <v-container fluid  >
     <v-layout row justify-space-between>
@@ -7,11 +16,13 @@
       </v-flex>
       
       <v-flex xs4>
-        <div class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a labore explicabo facere error vel ea, ducimus, consectetur eum tenetur repudiandae quo voluptates quasi, eveniet laboriosam. Distinctio aut maiores quisquam.</div>
+        <div class="font-italic white--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a labore explicabo facere error vel ea, ducimus, consectetur eum tenetur repudiandae quo voluptates quasi, eveniet laboriosam. Distinctio aut maiores quisquam.</div>
         <div class="mt-3">
           
-          
-          <v-btn  class="orange--text content" src="./assets/Resume Teresita Madriaza Segura_compressed.pdf">download cv</v-btn>
+        
+          <v-btn  class="yellow black--text " src="./assets/Resume Teresita Madriaza Segura_compressed.pdf">download
+          <v-icon right >file_download</v-icon>
+          </v-btn>
         </div>
       </v-flex>
     </v-layout>
@@ -78,7 +89,7 @@
         </v-layout>
 
         <v-layout >
-          <div class="text-capitalize mt-4">Photoshop</div>
+          <div class="text-capitalize mt-4 white--text">Photoshop</div>
           <div class="mt-3 ml-3">
           <v-rating 
           v-model="rating"
@@ -92,7 +103,7 @@
         </v-layout>
 
         <v-layout >
-          <div class="text-capitalize mt-4">Ilustrator</div>
+          <div class="text-capitalize mt-4 white--text">Ilustrator</div>
           <div class="mt-3 ml-3">
           <v-rating v-model="rating"
           record
@@ -106,7 +117,7 @@
         </v-layout>
 
         <v-layout >
-          <div class="text-capitalize mt-4">adobe xd</div>
+          <div class="text-capitalize mt-4 white--text">adobe xd</div>
           <div class="mt-3 ml-3">
           <v-rating 
           v-model="rating"
@@ -124,7 +135,7 @@
         </v-layout>
 
         <v-layout >
-          <div class="text-capitalize mt-4">React JS</div>
+          <div class="text-capitalize mt-4 white--text">React JS</div>
           <div class="mt-3 ml-3">
           <v-rating 
           v-model="rating"
@@ -138,7 +149,7 @@
         </v-layout>
 
         <v-layout >
-          <div class="text-capitalize mt-4">Vue JS</div>
+          <div class="text-capitalize mt-4 white--text">Vue JS</div>
           <div class="mt-3 ml-3">
           <v-rating 
           v-model="rating"
@@ -153,7 +164,7 @@
         </v-layout>
 
         <v-layout >
-          <div class="text-capitalize mt-4">Laravel</div>
+          <div class="text-capitalize mt-4 white--text">Laravel</div>
           <div class="mt-3 ml-3">
           <v-rating 
           v-model="rating"
@@ -171,7 +182,7 @@
           <div class="yellow--text title text-uppercase font-weight-light ">Otro</div>
         </v-layout>
         <v-layout >
-          <div class="text-capitalize mt-3">Inglés</div>
+          <div class="text-capitalize mt-3 white--text">Inglés</div>
           <div class="mt-2 ml-3">
           <v-rating 
           v-model="rating"
@@ -185,7 +196,7 @@
           </div>
         </v-layout>
         <v-layout >
-          <div class="text-capitalize mt-3">Boostrap</div>
+          <div class="text-capitalize mt-3 white--text">Boostrap</div>
           <div class="mt-2 ml-3">
           <v-rating 
           v-model="rating"
@@ -199,7 +210,7 @@
           </div>
         </v-layout>
         <v-layout >
-          <div class="text-capitalize mt-3">Vuetify</div>
+          <div class="text-capitalize mt-3 white--text">Vuetify</div>
           <div class="mt-2 ml-3">
           <v-rating 
           v-model="rating"
@@ -221,7 +232,7 @@
    
   </v-container> 
   </v-container>
-  
+  </v-img>
 </template>
 
 <script>
