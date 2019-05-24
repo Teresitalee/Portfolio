@@ -22,16 +22,15 @@
                     mt-4
                     >
 
-                    <v-img>
+                    <v-avatar>
                     <img
-                        src="http://www.carmenrferro.com/wp-content/uploads/2014/01/images.jpeg"
+                        src="https://drive.google.com/open?id=124FFl8qEhZ3W-MGLmNPPhuQyKU0P_Wqh"
                         alt="Teresita"
                         max-height="25"
                         width="180"
-                        :gradient="gradient"
-    dark
+                        
                     >
-                    </v-img>
+                    </v-avatar>
 
                 </v-responsive>
             </div>   
@@ -57,16 +56,17 @@
                     mt-4
                     >
 
-                    <v-img circle>
+                    <v-avatar
+                    size="avatarSize" >
                     <img
-                        src="https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_female-512.png"
+                        src="https://media.licdn.com/dms/image/C4E03AQHw3J0TSWHoSw/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=Q-ZijBeovCqV-U-Nxh0s7PWxtViTKdd-1CyKA-s-bUE"
                         alt="Teresita"
                         circle
-                        max-height="60"
-                        width="180"
+                        height="200px"
+                        width="200px"
                         
                     >
-                    </v-img>
+                    </v-avatar>
                 </v-layout>
           </div>
       </v-flex>

@@ -1,8 +1,10 @@
 <template>
 <v-parallax xs4 md8
     height="537"
-    src="https://images.unsplash.com/photo-1557399309-407d3c9598fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-    
+    position="center center"
+    position-y
+    src="https://scontent.fscl9-2.fna.fbcdn.net/v/t1.0-9/24296806_10215338474241324_8797941704940594771_n.jpg?_nc_cat=107&_nc_ht=scontent.fscl9-2.fna&oh=030dad909528d440eb593aa37e2b3a96&oe=5D926842"
+    aspect-ratio="1"
   >
     <v-layout
       column
