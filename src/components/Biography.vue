@@ -21,10 +21,12 @@
                     mt-4
                     >
 
-                    <v-avatar>
-                  
-                     <img :src="require('@/assets/logo.png')"/>
-                    </v-avatar>
+                    <v-img
+                    height="80"
+                    width="300"
+                    >
+                     <img :src="require('@/assets/firma2.png')"/>
+                    </v-img>
 
                 </v-responsive>
             </div>   
@@ -73,31 +75,31 @@
                     <div class="font-weight-bold  yellow--text mb-4 display-1">What I can do for you ?</div>
                   
                     <v-expansion-panel >
-                    <v-expansion-panel-content class="theme-dark">
+                    <v-expansion-panel-content class="grey darken-3">
                     <template v-slot:header>
-                        <div class="title font-weight-medium">Web Development</div>
+                        <div class="title font-weight-thin white--text">Web Development</div>
                     </template>
-                    <v-card>
+                    <v-card class="grey">
                         <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, .</v-card-text>
                     </v-card>
                     </v-expansion-panel-content>
                 </v-expansion-panel>
 
                  <v-expansion-panel>
-                    <v-expansion-panel-content>
+                    <v-expansion-panel-content class="grey darken-3">
                     <template v-slot:header>
-                        <div class="title font-weight-medium">Desing Graphic</div>
+                        <div class="title font-weight-thin white--text">Desing Graphic</div>
                     </template>
-                    <v-card>
+                    <v-card class="grey">
                         <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, .</v-card-text>
                     </v-card>
                     </v-expansion-panel-content>
                 </v-expansion-panel>
 
                  <v-expansion-panel>
-                    <v-expansion-panel-content>
+                    <v-expansion-panel-content class="grey darken-3">
                     <template v-slot:header>
-                        <div class="title font-weight-medium">Branding</div>
+                        <div class="title font-weight-thin white--text">Branding</div>
                     </template>
                     <v-card>
                         <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
