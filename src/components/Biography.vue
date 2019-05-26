@@ -1,15 +1,14 @@
 <template>
 <v-img
   src="https://images.pexels.com/photos/2310642/pexels-photo-2310642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-  height="527"
-  :gradient="gradient"
+  height="627"
   dark
   position-x
   position-y
   
   >
-  <v-container grid-list-xl>
-    <v-layout mt-4 align-space-between justify-space-between row fill-height>
+  <v-container fluid ml-2 mr-3>
+    <v-layout mt-4 align-space-between justify-space-between row >
       <v-flex xs4>
           <div class="mb-4 flex xs8 md12 ">
                 <div class="font-weight-bold  yellow--text mb-4 display-1" >Who Im .</div>
@@ -23,13 +22,8 @@
                     >
 
                     <v-avatar>
-                    <img
-                        src="https://drive.google.com/open?id=124FFl8qEhZ3W-MGLmNPPhuQyKU0P_Wqh"
-                        alt="Teresita"
-                        max-height="25"
-                        width="180"
-                        
-                    >
+                  
+                     <img :src="require('@/assets/logo.png')"/>
                     </v-avatar>
 
                 </v-responsive>
@@ -44,16 +38,16 @@
           </div>
       </v-flex>
 
-      <v-flex xs5 offset-sm1>
+      <v-flex xs5 mr-4 >
           <div class="mb-2 text-xs-right">
             <div class="text-uppercase display-1 font-weight-bold white--text">front-end developer</div>
             <span class="yellow--text text-uppercase display-2 headline font-weight-light  text-xs-right">Teresita Madriaza</span>
             
                 <v-layout
-                    align-left
-                    justify-space-around
-                    wrap
                     mt-4
+                    align-space-between
+                    justify-end
+                    row fill-height
                     >
 
                     <v-avatar
@@ -73,7 +67,7 @@
     </v-layout>
 
     <template>
-        <v-flex md6 offset-md4 mt-1>
+        <v-flex flex xs6 md4 offset-md4>
             <v-layout>
                 <div class="yellow--text">
                     <div class="font-weight-bold  yellow--text mb-4 display-1">What I can do for you ?</div>
@@ -81,10 +75,10 @@
                     <v-expansion-panel >
                     <v-expansion-panel-content class="theme-dark">
                     <template v-slot:header>
-                        <div class="title font-weight-light">Web Development</div>
+                        <div class="title font-weight-medium">Web Development</div>
                     </template>
                     <v-card>
-                        <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+                        <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, .</v-card-text>
                     </v-card>
                     </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -92,10 +86,10 @@
                  <v-expansion-panel>
                     <v-expansion-panel-content>
                     <template v-slot:header>
-                        <div class="title font-weight-light">Desing Graphic</div>
+                        <div class="title font-weight-medium">Desing Graphic</div>
                     </template>
                     <v-card>
-                        <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+                        <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, .</v-card-text>
                     </v-card>
                     </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -103,7 +97,7 @@
                  <v-expansion-panel>
                     <v-expansion-panel-content>
                     <template v-slot:header>
-                        <div class="title font-weight-light">Branding</div>
+                        <div class="title font-weight-medium">Branding</div>
                     </template>
                     <v-card>
                         <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
@@ -135,7 +129,12 @@
 
 
 <script>
+
+
 export default {
-   name: 'Biography'
+   name: 'Biography',
+    
+
+   
 }
 </script>

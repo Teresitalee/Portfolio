@@ -2,7 +2,6 @@
 <v-img
   src="https://images.pexels.com/photos/2310642/pexels-photo-2310642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
   height="827"
-  :gradient="gradient"
   dark
   position-x
   position-y
@@ -16,7 +15,7 @@
       </v-flex>
       
       <v-flex xs4>
-        <div class="font-italic white--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a labore explicabo facere error vel ea, ducimus, consectetur eum tenetur repudiandae quo voluptates quasi, eveniet laboriosam. Distinctio aut maiores quisquam.</div>
+        <div class="font-italic white--text">Lorem ipsum dolor sit amet consectetur adipisicing elit..</div>
         <div class="mt-3">
           
         
@@ -35,50 +34,63 @@
        <!--education  -->
       <v-flex  xs4>  
         <div class="display-1 headline font-weight-medium mb-4 yellow--text text-capitalize">My education</div>
-        <v-card>
-        <v-layout class="text-capitalize subheading">
-          <div>Hunter College University of New York</div>
+        
+        <v-layout class="text-uppercase subheading">
+          <div class="white--text">Hunter College University of New York</div>
         </v-layout>
-        <v-layout class="yellow--text headline text-capitalize text-lg-right font-weight-regular">
+        <v-layout class="yellow--text headline text-capitalize text-lg-right font-weight-regular align-space-between justify-end">
           <div>Bacher arts</div>
         </v-layout>
-        <v-layout>
-          <div class="subheading text-capitalize text-xs-right">Restoring medio oriente</div>
+        <v-layout align-space-between justify-end >
+          <div class="subheading text-capitalize text-xs-right white--text">Restoring medio oriente</div>
         </v-layout>
-        <v-layout class="subheading text-xs-right">
-          <div >2000-2003</div>
+        <v-layout class="subheading text-xs-right align-space-between justify-end">
+          <div class="white--text mb-3" >2000-2003</div>
         </v-layout>
-      </v-card>
 
-      <v-card >
-        <v-layout mt-3>
-          <div class="subheading text-capitalize">DUOC UC</div>
-        </v-layout>
-        <v-layout>
-          <div class="yellow--text headline  text-capitalize text-xs-right">Bacher arts</div>
-        </v-layout>
-        <v-layout>
-          <div class="subheading text-capitalize text-xs-right">Restoring medio oriente</div>
-        </v-layout>
-        <v-layout>
-          <div class="subheading text-capitalize text-xs-right">2000-2003</div>
-        </v-layout>
-      </v-card>
+        <v-sheet
+         class="d-flex"
+         color="yellow"
+         height="2" 
+        >
+        </v-sheet>
+     
 
-      <v-card >
+      
         <v-layout mt-3>
-          <div class="text-capitalize subheading">Bootcamp Laboratoria LA</div>
+          <div class="subheading text-capitalize white--text">DUOC UC</div>
         </v-layout>
-        <v-layout>
-          <div class="yellow--text headline  text-capitalize text-xs-right">Bacher arts</div>
+        <v-layout align-space-between justify-end >
+          <div class="yellow--text headline  text-capitalize text-xs-right">computer sciense</div>
         </v-layout>
-        <v-layout>
-          <div class="subheading text-capitalize text-xs-right">Restoring medio oriente</div>
+        <v-layout align-space-between justify-end>
+          <div class="subheading text-capitalize text-xs-right white--text">Analist programming</div>
         </v-layout>
-        <v-layout>
-          <div class="subheading text-capitalize text-xs-right">2000-2003</div>
+        <v-layout align-space-between justify-end>
+          <div class="subheading text-capitalize text-xs-right white--text mb-3">2010-2015</div>
         </v-layout>
-      </v-card>
+
+        <v-sheet
+         class="d-flex"
+         color="yellow"
+         height="2" 
+        >
+        </v-sheet>
+      
+
+     
+        <v-layout mt-3>
+          <div class="text-uppercase subheading white--text ">Bootcamp Laboratoria scl</div>
+        </v-layout>
+        <v-layout align-space-between justify-end >
+          <div class="yellow--text headline  text-capitalize text-xs-right">Programming</div>
+        </v-layout>
+        <v-layout align-space-between justify-end >
+          <div class="subheading text-capitalize text-xs-right white--text">Front-end Developer</div>
+        </v-layout>
+        <v-layout align-space-between justify-end >
+          <div class="subheading text-capitalize text-xs-right white--text ">2018</div>
+        </v-layout>
       </v-flex>
 
       <!--skills  -->
