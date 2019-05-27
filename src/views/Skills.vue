@@ -32,8 +32,10 @@
   <v-container grid-list-md >
     <v-layout row wrap>
        <!--education  -->
-      <v-flex  xs4>  
-        <div class="display-1 headline font-weight-medium mb-4 yellow--text text-capitalize">My education</div>
+      <v-flex  xs4>
+        
+        <div class="display-1 headline font-weight-medium mb-4 yellow--text text-capitalize">My education <v-icon color="yellow">school</v-icon>  </div>
+        
         
         <v-layout class="text-uppercase subheading">
           <div class="white--text">Hunter College University of New York</div>
@@ -95,7 +97,7 @@
 
       <!--skills  -->
       <v-flex xs4 offset-xs5 offset-md2>
-        <div class="display-1 headline font-weight-medium mb-4 yellow--text text-capitalize">My Skills</div>
+        <div class="display-1 headline font-weight-medium mb-4 yellow--text text-capitalize">My Skills <v-icon color="yellow">stars</v-icon></div>
         <v-layout >
           <div class="yellow--text title text-uppercase font-weight-light">Graphic/media</div>
         </v-layout>
@@ -105,6 +107,7 @@
           <div class="mt-3 ml-3">
           <v-rating 
           v-model="rating"
+          
           record
           color="yellow accent-4"
           dense

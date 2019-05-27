@@ -1,7 +1,7 @@
 <template>
 <v-container grid-list-md >
    <v-card flat tile class="d-flex" >
-    <v-layout row wrap mt-3 ml-3 mr-3 >
+    <v-layout row wrap mt-4 ml-4 mr-4 mb-4>
       
       <!-- linea 1 -->
       <v-flex  xs6>
