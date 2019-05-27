@@ -19,35 +19,38 @@
         <v-flex xs6>
             <div class="mb-4 flex xs8 md12 right">
                 <div class="font-weight-bold  yellow--text mb-4 display-1" >Social Icons .</div>
-                <div class="text-xs-center">
-                <v-btn  outline large fab color="yellow" text-md-center>
-                <v-icon dark color="white">call</v-icon>
-                </v-btn>
-                <v-btn  outline large fab color="yellow">
-                <v-icon dark color="white" class="text-sm-center" >mail_outline</v-icon>
-                </v-btn >
-                <v-btn  outline large fab color="yellow">
-                <v-icon dark color="white" class="text-xs-center">share</v-icon>
-                </v-btn>
-                
+               <v-flex xs12 mt-2 text-md-center>
+                    <div class="xs12 md8 text-uppercase font-weight-medium pt-2 ml-2">
+                        <div>
+                             <v-btn outline large fab color="yellow"  >
+                                <v-icon dark color="white" class=" text-xs-center " >call</v-icon>
+                                </v-btn>
+                                <span class=" subheading white--text text-capitalize font-italic" href="https://www.emol.com/">  +56 953908406</span>
+                        </div>
+                        <div>
+                             <v-btn outline large fab color="yellow"   >
+                                <v-icon dark color="white" class=" text-xs-center " >mail_outline</v-icon>
+                                </v-btn>
+                                <span class=" subheading white--text text-capitalize font-italic" href="https://www.emol.com/">  teresita1852@gmail.com</span>
+                        </div>
+                        <div>
+                            <v-btn outline large fab color="yellow" >
+                                <v-icon dark color="white" class=" text-xs-center " >share</v-icon>
+                            </v-btn>
+                            <span class="subheading white--text text-capitalize font-italic" href="https://www.emol.com/">  mi cv (compartelo)</span>
+                        </div>
 
-                </div>
 
-                
+
+
+
+                        
+                    </div>
+                </v-flex>
                 
             </div>
         </v-flex>
-
-
-
-
-
-
-
-
-
     </v-layout>
-  
     <Form />
   
 </v-container>
